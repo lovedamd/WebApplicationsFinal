@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Homepage For Final</title>
+  <meta charset="UTF-8">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+  <!--- CSS Stylesheet -->
+  <link rel="stylesheet" href="homepage.css">
+  <!--Javascript for checking login-->
+  <script src="status.js"></script>
+</head>
+
+<body>
+  <!--This is the beginnings of a NavBar. Have included all the necessary bootstrap-->
+  <!--Will create the base of the html pages for further editing-->
+  <!--Do not yet have a CSS page, will need to collaborate on what we want it to look like-->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="homepage.html" id="homeLink">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="stocks.html" id="stocksLink">Stocks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="stockHistory.html" id="stockHistoryLink">Stock History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutPaige.html" id="aboutPaigeLink">Paige Helmke</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutMadi.html" id="aboutMadiLink">Madison Loveday</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto" id="signUpLoginLink"></ul>
+      </div>
+    </div>
+  </nav>
+
+  <h1>Stocks Navigation Guide</h1>
+
+  <div class="container">
+
+    <h5>Navigation Bar</h5>
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-fluid" src="pictures/nav.jpg">
+      </div>
+      <div class="col-sm-6">
+        <p>
+          The navigation bar is a tool you'll find on every page to help you navigate the stock website. 
+          You can travel from page to page by clicking the page names up at the top, though note that you 
+          can't access the Stock History page unless you are logged in. At the end of the navigation bar 
+          is a link that changes depending on your login status. If you aren't logged in it'll say Sign Up / Login 
+          but if you are logged in already it is able to detect that you are and it'll say Sign Out like shown 
+          here.
+        </p>
+      </div>
+    </div>
+
+    <h5>Login Page</h5>
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-fluid" src="pictures/login.jpg">
+      </div>
+      <div class="col-sm-6">
+        <p>
+          The login page is a page that lets already registered users log in. There are fields to enter your 
+          username and password, as well as a button to submit. After a successful log in it will notify the user 
+          and bring them to the homepage here. If the user doesn't have an account already, they can click 
+          the link to sign up, and be taken to the sign up page. 
+        </p>
+      </div>
+    </div>
+
+    <h5>Sign Up Page</h5>
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-fluid" src="pictures/signup.jpg">
+      </div>
+      <div class="col-sm-6">
+        <p>
+          The sign up page is a page that allows someone to create a new user. 
+          There are required fields, such as name, username, password, and a confirm 
+          password field. The register button will take the user to the login page upon 
+          a successful sign up. The link at the bottom takes you to the login page in 
+          case a user already has an account.
+        </p>
+      </div>
+    </div>
+
+    <h5>Stocks Page</h5>
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-fluid" src="pictures/stock.jpg">
+      </div>
+      <div class="col-sm-6">
+        <p>
+          The picture shows how the stock lookup page looks when you first view it. It has several 
+          sections: stock lookup to look up stocks, your favorites to view favorites, and news to view 
+          news related to a stock.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-fluid" src="pictures/graphExample.jpg">
+      </div>
+      <div class="col-sm-6">
+        <p>
+          To the right is an example of the graph that is displayed on the stocks page.
+          The different colors are used to differentiate between the data being shown. Red is for
+          the last highest price of the stock, blue is for the last lowest price of the stock,
+          yellow is for the last open price of the stock, and teal is for the last closing price
+          of the stock. To get a more detailed number, you can hover over the point on the graph
+          you want to know about, and it will be made visible.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-fluid" id="stretch-img" src="pictures/dropBoxExamples.jpg">
+      </div>
+      <div class="col-sm-6">
+        <p>
+          These are the two dropdown boxes that can be used to choose between the different
+          companies and stocks available for perusal. The left-most box displays the name of
+          the stock exchanges available. Once the stock exchange you wish to view has been
+          selected, you can move to the right-most box and choose which of the stocks associated
+          with that exchange you want to view. Finally, click the "View Stock Info" button once you have
+          made your choice to change the graph's display as well as the associated new articles displayed.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-fluid" src="pictures/viewInfo.jpg">
+      </div>
+      <div class="col-sm-6">
+        <p>
+          Clicking the button labled View Stock Info will allow you to view 
+          information about a selected stock. It changes the information table, the 
+          graph, and changes the news articles to be relevant to the stock you selected.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-fluid" src="pictures/infoEx.jpg">
+      </div>
+      <div class="col-sm-6">
+        <p>
+          After clicking View Stock, this is an example of a stock infromation table. 
+          It displays some data, as well as includes a link named after the ticker to take you 
+          to a stock's homepage.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-fluid" src="pictures/newsPulled.png">
+      </div>
+      <div class="col-sm-6">
+        <p>
+          These are the top five news sources/articles associated with the chosen stock.
+          If you wish to view the articles, you can click on the title, located next to the
+          publish date. If you wish to view the news articles associated with a different stock,
+          please change the stock from the dropdown box, and then click the "View Stock Info" button.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-fluid" src="pictures/favBttn.jpg">
+      </div>
+      <div class="col-sm-6">
+        <p>
+          This is the "Favorites Button", which is used to add or remove certain
+          stocks from your saved favorites. This is a feature that is only available when signed
+          in.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-fluid" src="pictures/favEx.png">
+      </div>
+      <div class="col-sm-6">
+        <p>
+          This is an example of what information is displayed about a stock that
+          has been added to your favorites list. It will display the name of the company, the
+          ticker symbol for the stock, the last high, low, close, and open prices, as well
+          as the volume for the stock. Finally, the "Difference From Last Input" shows the difference
+          between the current day's closing price and the last day's closing price. If the number is zero
+          or greater, the number is displayed as green. If the number is in the negatives, it is displayed
+          as red.
+        </p>
+      </div>
+    </div>
+
+    <h5>Stock History Page</h5>
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-fluid" src="pictures/stockhistory.jpg">
+      </div>
+      <div class="col-sm-6">
+        <p>
+          This is what the stock history page looks like when you first enter. You can only 
+          view this page if logged in, or you'll recieve an alert. Here you can view information 
+          about the stocks you've favorited in the past with a daily transaction log.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-fluid" src="pictures/historySearch.jpg">
+      </div>
+      <div class="col-sm-6">
+        <p>
+          To search for your transaction log, you need to provide starting and ending 
+          dates, and clarify if you want the dates to be in ascending or descending order.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-fluid" src="pictures/histSearch.jpg">
+      </div>
+      <div class="col-sm-6">
+        <p>
+          This is the button you click once you specified your search parameters. 
+          It will return the results of your search.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <img class="img-fluid" src="pictures/dateSum.jpg">
+      </div>
+      <div class="col-sm-6">
+        <p>
+          Here is an example of a returned date. Note that if there are no 
+          transactions that day, the cards tell you so.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

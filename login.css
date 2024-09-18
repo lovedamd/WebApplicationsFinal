@@ -1,0 +1,88 @@
+.card {
+    width: 475px;
+    background-color: #3c333d;
+}
+
+body {
+    background-color: #1F1B24;
+    color: #FFFFFF;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+  }
+
+.navbar {
+    background-color: #121212;
+    width: 100%;
+}
+
+.navbar-brand {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: Gerorgia;
+}
+
+.navbar-brand:hover {
+    color: #6d2aff;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    font-family: Gerorgia;
+}
+
+.nav-link:hover {
+    color: #6d2aff;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+#linking {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+a {
+    color: #b99aff;
+}
+
+a:hover {
+    color: #6d2aff;
+}
+
+.form-control {
+    margin: 10px;
+}
+
+.logButton, .signButton {
+    margin: 10px;
+}
+
+.btn-primary {
+    background-color: #b99aff;
+}
+
+.btn-primary:hover {
+    background-color: #6d2aff;
+}
+
+h5 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.card {
+    margin-left: 25px;
+}

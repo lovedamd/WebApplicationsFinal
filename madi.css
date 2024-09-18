@@ -1,0 +1,89 @@
+h1 {
+    margin-top: 10px;
+    border-style: solid;
+    border-color: #31155e;
+    border-radius: 50% 20% / 10% 40%;
+    box-sizing: border-box;
+}
+
+img.miami {
+    border-style: inset;
+    border-color: #B61E2E;
+}
+
+p.caption {
+    text-align: center;
+    font-style: italic;
+}
+
+h5.slide {
+    color: white;
+}
+
+body {
+    background-color: rgb(194, 171, 219);
+}
+
+div.carousel {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+div.accordian {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+img.sizeable {
+    height: 80%;
+    width: 400px;
+}
+
+ul.centered {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+p.centered {
+    text-align: center;
+    padding: 50px;
+}
+
+div.buffered {
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-bottom: 5%;
+}
+
+img.card {
+    height: 500px;
+    width: 500px;
+}
+
+.navbar-brand {
+    color: #673497;
+    font-weight: bold;
+    font-family: Garamond;
+}
+
+nav.navbar {
+    background-color: #95c5db !important;
+    width: 100%;
+}
+  
+.navbar-brand:hover {
+    color: #31155e;
+}
+  
+.nav-link {
+    color: #673497;
+    font-family: Gerorgia;
+}
+  
+.nav-link:hover {
+    color: #31155e;
+}
+  
+.navbar-toggler-icon {
+    filter: invert(1);
+}

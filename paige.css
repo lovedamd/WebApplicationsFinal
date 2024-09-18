@@ -1,0 +1,63 @@
+body {
+  background-color: #CDE8E5;
+}
+
+.navbar {
+  background-color: #4D869C;
+  width: 100%;
+}
+
+.card {
+  background-color: #4D869C;
+  color: white;
+}
+
+.navbar-brand {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-family: Garamond;
+}
+
+.navbar-brand:hover {
+  color: #7AB2B2;
+}
+
+.nav-link {
+  color: #FFFFFF;
+  font-family: Gerorgia;
+}
+
+.nav-link:hover {
+  color: #7AB2B2;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+h3 {
+  color: black;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+h1 {
+  font-family: Georgia;
+  text-decoration: underline;
+}
+
+img{
+  margin-bottom: 20px;
+}
+
+p, li {
+  font-family: monaco;
+}
+
+#c-text {
+  text-align : center;
+}

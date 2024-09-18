@@ -1,0 +1,58 @@
+body {
+    background-color: #1F1B24;
+    color: #FFFFFF;
+    height: 100%;
+}
+
+.navbar {
+    background-color: #121212;
+    width: 100%;
+}
+
+.navbar-brand {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: Gerorgia;
+}
+
+.navbar-brand:hover {
+    color: #6d2aff;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    font-family: Gerorgia;
+}
+
+.nav-link:hover {
+    color: #6d2aff;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.btn-primary {
+    background-color: #b99aff;
+}
+
+.btn-primary:hover {
+    background-color: #6d2aff;
+}
+
+h2 {
+    font-family: Georgia;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: Georgia;
+    margin-top: 40px;
+}
+
+.card-header {
+    font-family: Georgia;
+    font-weight: bold;
+}

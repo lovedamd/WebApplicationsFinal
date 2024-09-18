@@ -1,0 +1,100 @@
+body {
+    background-color: #1F1B24;
+    color: #FFFFFF;
+    height: 100%;
+}
+
+.navbar {
+    background-color: #121212;
+    width: 100%;
+}
+
+.navbar-brand {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: Gerorgia;
+}
+
+.navbar-brand:hover {
+    color: #6d2aff;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    font-family: Gerorgia;
+}
+
+.nav-link:hover {
+    color: #6d2aff;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.btn-primary {
+    background-color: #b99aff;
+    margin-bottom: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #6d2aff;
+}
+
+
+p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    display: block; /* Ensure arrows are visible */
+}
+
+.col-md {
+    scrollbar-width: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stockChart {
+    max-width: 95%;
+    height: auto;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#stockSelect,  #exchSelect {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: Georgia;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+a {
+    color: #b99aff;
+}
+
+a:hover {
+    color: #6d2aff;
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    font-weight: bold;
+    font-family: Georgia;
+}
